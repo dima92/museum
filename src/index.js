@@ -1,0 +1,26 @@
+import './scss/main.scss';
+import * as validatorFunc from './js/validationForm.js';
+import * as toTop from './js/backToTop.js';
+import * as comparison from './js/explorePicture.js';
+import * as ripple from './js/rippleEffect.js';
+import * as mapping from './js/map.js';
+import * as burger from './js/burgerHandler.js';
+import * as player from './js/customPlayer.js';
+import * as welcomeSlider from './js/welcomeSlider.js';
+import * as randomGallery from './js/randomGallery.js';
+import * as slideOnScroll from './js/slideOnScroll.js';
+import * as modal from './js/popup.js';
+import * as calc from './js/calculateForm.js';
+
+validatorFunc.validate();
+toTop.up();
+comparison.explore();
+ripple.ripple();
+mapping.mapbox();
+burger.burger();
+player.videoPlayer();
+welcomeSlider.slider();
+randomGallery.gallery();
+slideOnScroll.slideScroll();
+modal.modalPopup();
+calc.calcTickets();
